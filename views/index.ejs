@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>GREENSCAN</title>
+        <link
+            rel="stylesheet"
+            rel="preload"
+            as="style"
+            onload="this.rel='stylesheet';this.onload=null"
+            href="https://unpkg.com/milligram@1.3.0/dist/milligram.min.css"
+        />
+        <link rel="stylesheet" href="main.css" type="text/css" />
+    </head>
+    <body>
+        <div class="main">
+            <header>
+                <div>
+                    <a href="/">GREENSCAN</a>
+                </div>
+            </header>
+            <div class="welcome">
+                <div class="welcomeText">TO "GREENER" CHOICE</div>
+            </div>
+            <div class="blank"></div>
+            <div class="apps">
+                <div class="barcode" onclick="location.href='/barcode'">
+                    <div class="appText">barcode</div>
+                </div>
+                <div class="search" onclick="location.href='/search'">
+                    <div class="appText">search</div>
+                </div>
+                <div class="map" onclick="location.href='/map'">
+                    <div class="appText">map</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

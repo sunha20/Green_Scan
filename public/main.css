@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue|Do+Hyeon|Gothic+A1:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Palette+Mosaic&display=swap");
+@font-face {
+    font-family: "Bebas Neue", cursive;
+    src: url("https://fonts.googleapis.com/css2?family=Bebas+Neue");
+    unicode-range: U+0041-005A, U+0061-007A;
+}
+@font-face {
+    font-family: "Do Hyeon", sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Do+Hyeon");
+    unicode-range: U+AC00-D7A3;
+}
+@font-face {
+    font-family: "Gothic A1", sans-serif;
+    src: url("https://fonts.googleapis.com/css2?Gothic+A1:wght@300");
+    unicode-range: U+AC00-D7A3;
+}
+body {
+    margin: 0px;
+}
+header {
+    height: 20vh;
+}
+header div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+}
+header a {
+    font-family: "Bebas Neue", cursive;
+    padding-left: 5vw;
+    font-size: 15vw;
+    vertical-align: center;
+}
+a,
+a:after {
+    color: #000;
+    font-family: "Bebas Neue", cursive;
+    text-decoration: none;
+}
+nav {
+    width: 100%;
+    height: 12vh;
+    font-size: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav a,
+nav a:after {
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+    flex: 1;
+    line-height: 12vh;
+    height: 100%;
+    text-align: center;
+    vertical-align: bottom;
+    font-size: 6vw;
+}
+.main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: "Bebas Neue", cursive;
+    image-rendering: -webkit-optimize-contrast;
+}
+.welcome {
+    flex: 43%;
+    display: flex;
+    background-image: url(forestbackground.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.welcomeText {
+    max-width: 40vw;
+    color: white;
+    font-size: 10vw;
+}
+.blank {
+    flex: 2%;
+}
+.apps {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 45%;
+    font-size: 12vw;
+    cursor: pointer;
+    color: white;
+}
+.barcode {
+    background-color: limegreen;
+    display: flex;
+    flex: 33%;
+    justify-content: center;
+    align-items: center;
+}
+.search {
+    background-color: lime;
+    display: flex;
+    flex: 33%;
+    justify-content: center;
+    align-items: center;
+}
+.map {
+    background-color: forestgreen;
+    display: flex;
+    flex: 33%;
+    justify-content: center;
+    align-items: center;
+}
+.nav_bar {
+    background-color: limegreen;
+}
+.nav_search {
+    background-color: lime;
+}
+.nav_map {
+    background-color: forestgreen;
+}
+.wrapper {
+    flex: 80%;
+}
+.welcome {
+    flex: 43%;
+    display: flex;
+    background-image: url(forestbackground.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.blank2 {
+    flex: 47%;
+}
+.main_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.current_page {
+    font-family: "Bebas Neue", "Do Hyeon";
+    width: 80vw;
+    margin: 5vh;
+    text-align: left;
+    font-size: 8vw;
+    padding-left: 5vw;
+    border-left: forestgreen solid 3px;
+    font-weight: lighter;
+}
+.item_box {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2vw 5vw;
+}
+.current_item {
+    width: 70vw;
+    position: relative;
+}
+.line {
+    border-bottom: black solid 1.5px;
+    width: 15vw;
+    margin-bottom: 0;
+}
+.sub_title {
+    font-family: "Bebas Neue", "Do Hyeon";
+    font-size: 5vw;
+    margin-top: 0;
+    padding-top: 1vh;
+    text-align: center;
+    vertical-align: bottom;
+}
+.item_title {
+    font-family: "Gothic A1";
+    font-size: 3.5vw;
+    width: 100%;
+    margin: 0;
+    padding-top: 1vh;
+    vertical-align: bottom;
+    font-weight: bolder;
+}
+.item_title a {
+    display: inline-block;
+    width: 100%;
+    font-family: "Do Hyeon";
+    font-size: 3vw;
+    font-weight: lighter;
+    text-align: center;
+}
+.item_title a:hover {
+    text-decoration: underline;
+}
+.result {
+    font-family: "Do Hyeon";
+    font-size: 6vw;
+    position: absolute;
+    top: 50%;
+    transform: rotate(340deg);
+    border-radius: 1vw;
+    padding: 0 2vw;
+}
+.green {
+    color: lime;
+    border: lime solid 2px;
+}
+.non_green {
+    color: white;
+    border: white solid 2px;
+}
+.item_img {
+    width: 28vw;
+    height: 28vw;
+    object-fit: cover;
+}
+.current_item img {
+    filter: brightness(60%);
+    width: 65vw;
+    height: 65vw;
+}
+.item_info {
+    font-family: "Gothic A1", sans-serif;
+    font-size: 2.5vw;
+}
+.recommend {
+    margin-top: 12vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.recommend_list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.leaf_img {
+    width: 5vw;
+    height: 5vw;
+    object-fit: cover;
+    margin-top: 5vw;
+}
+.recommend_list .item_img {
+    margin: 2vh 0;
+}
+#demo-content {
+    margin-top: 3vh;
+}
+#video {
+    width: 60vw;
+    height: 80vw;
+}
+#search {
+    background-color: white;
+    width: 50vw;
+    height: 10vw;
+    font-size: 6vw;
+}
+#submit {
+    height: 8vw;
+    font-size: 6vw;
+}
+#map {
+    width: 80vw;
+    height: 80vw;
+    border: forestgreen solid 3px;
+}
