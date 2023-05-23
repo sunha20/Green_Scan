@@ -1,5 +1,5 @@
 {
-    "name": "greenscan",
+    "name": "Green_Scan",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -8,14 +8,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/sunha20/greenscan.git"
+        "url": "git+https://github.com/sunha20/Green_Scan.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/sunha20/greenscan/issues"
+        "url": "https://github.com/sunha20/Green_Scan/issues"
     },
-    "homepage": "https://github.com/sunha20/greenscan#readme",
+    "homepage": "https://github.com/sunha20/Green_Scan#readme",
     "dependencies": {
         "cheerio": "^1.0.0-rc.11",
         "ejs": "^3.1.8",
