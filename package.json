@@ -1,28 +1,30 @@
 {
-    "name": "Green_Scan",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "start": "nodemon index.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/sunha20/Green_Scan.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/sunha20/Green_Scan/issues"
-    },
-    "homepage": "https://sunha20.github.io/Green_Scan/",
-    "dependencies": {
-        "cheerio": "^1.0.0-rc.11",
-        "ejs": "^3.1.8",
-        "express": "^4.18.1",
-        "nodemon": "^2.0.16",
-        "request": "^2.88.2",
-        "sqlite": "^4.1.1",
-        "sqlite3": "^5.0.8"
-    }
+  "name": "green_scan",
+  "version": "1.0.0",
+  "description": "> ‘그린스캔’은 사용자가 친환경적 소비를 쉽게 할 수 있도록 돕는 웹 애플리케이션입니다.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunha20/green_scan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunha20/green_scan/issues"
+  },
+  "homepage": "https://sunha20.github.io/green_scan/",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.11",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "gh-pages": "^5.0.0",
+    "nodemon": "^2.0.16",
+    "request": "^2.88.2",
+    "sqlite": "^4.1.1",
+    "sqlite3": "^5.0.8"
+  },
+  "keywords": []
 }
