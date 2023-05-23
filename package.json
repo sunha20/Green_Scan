@@ -4,7 +4,9 @@
   "description": "> ‘그린스캔’은 사용자가 친환경적 소비를 쉽게 할 수 있도록 돕는 웹 애플리케이션입니다.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -15,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/sunha20/green_scan/issues"
   },
-  "homepage": "https://sunha20.github.io/green_scan/",
+  "homepage": "https://sunha20.github.com/green_scan/",
   "dependencies": {
     "cheerio": "^1.0.0-rc.11",
     "ejs": "^3.1.8",
